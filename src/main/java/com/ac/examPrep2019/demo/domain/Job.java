@@ -21,9 +21,10 @@ public class Job
         private String title;
 
 
-        public Builder(String title)
+        public Builder title (String title)
         {
             this.title = title;
+            return this;
         }
 
         public Job build()
