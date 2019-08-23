@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46db5cb4-6e6c-41bb-bcbb-24327ce3ff05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/factory/PersonFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/factory/DemographyFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/factory/JobFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/factory/SalaryFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/domain/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/domain/Job.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/factory/DemographyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/factory/DemographyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/factory/JobFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/factory/JobFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/factory/SalaryFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/factory/SalaryFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/factory/PersonFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/factory/PersonFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ac/examPrep2019/demo/factory/PersonFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ac/examPrep2019/demo/factory/PersonFactoryTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,37 +20,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/factory/PersonFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/factory/PersonFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/factory/JobFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/factory/SalaryFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="68">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/factory/SalaryFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -58,8 +40,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/factory/DemographyFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="68">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/factory/DemographyFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -90,6 +81,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/factory/SalaryFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/factory/DemographyFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/factory/PersonFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/factory/JobFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/factory/SalaryFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/factory/DemographyFactoryTest.java" />
       </list>
     </option>
   </component>
@@ -146,15 +140,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ExamPrep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ExamPrep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -165,7 +150,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566596760809" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566598759035" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -195,7 +180,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DemographyFactoryTest.getDemo">
+    <configuration name="DemographyFactoryTest.getDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ExamPrep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ac.examPrep2019.demo.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ac.examPrep2019.demo.factory" />
+      <option name="MAIN_CLASS_NAME" value="com.ac.examPrep2019.demo.factory.DemographyFactoryTest" />
+      <option name="METHOD_NAME" value="getDemo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ExamPrep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ac.examPrep2019.demo.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ac.examPrep2019.demo.factory" />
+      <option name="MAIN_CLASS_NAME" value="com.ac.examPrep2019.demo.factory.JobFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersonFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExamPrep" />
       <extension name="coverage">
@@ -211,8 +227,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SalaryFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ExamPrep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ac.examPrep2019.demo.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ac.examPrep2019.demo.factory" />
+      <option name="MAIN_CLASS_NAME" value="com.ac.examPrep2019.demo.factory.SalaryFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DemographyFactoryTest.getDemo" />
+        <item itemvalue="JUnit.SalaryFactoryTest" />
+        <item itemvalue="JUnit.JobFactoryTest" />
         <item itemvalue="JUnit.PersonFactoryTest" />
       </list>
     </recent_temporary>
@@ -227,7 +261,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566588779230</updated>
-      <workItem from="1566588805501" duration="8311000" />
+      <workItem from="1566588805501" duration="9929000" />
     </task>
     <servers />
   </component>
@@ -235,9 +269,33 @@
     <history-entry file="PersonFactoryTest - 2019.08.23 at 23h 47m 13s.xml">
       <configuration name="PersonFactoryTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PersonFactoryTest - 2019.08.23 at 23h 53m 30s.xml">
+      <configuration name="PersonFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonFactoryTest - 2019.08.23 at 23h 57m 36s.xml">
+      <configuration name="PersonFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonFactoryTest - 2019.08.23 at 23h 58m 06s.xml">
+      <configuration name="PersonFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JobFactoryTest - 2019.08.24 at 00h 04m 21s.xml">
+      <configuration name="JobFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalaryFactoryTest - 2019.08.24 at 00h 15m 33s.xml">
+      <configuration name="SalaryFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalaryFactoryTest - 2019.08.24 at 00h 16m 15s.xml">
+      <configuration name="SalaryFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemographyFactoryTest_getDemo - 2019.08.24 at 00h 18m 56s.xml">
+      <configuration name="DemographyFactoryTest.getDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemographyFactoryTest_getDemo - 2019.08.24 at 00h 19m 24s.xml">
+      <configuration name="DemographyFactoryTest.getDemo" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8311000" />
+    <option name="totallyTimeSpent" value="9929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -349,22 +407,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/factory/JobFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/factory/SalaryFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/factory/JobFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/factory/DemographyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="289">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding>
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -377,8 +432,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/factory/PersonFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/factory/SalaryFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/factory/SalaryFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/factory/DemographyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/factory/DemographyFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
         </state>
       </provider>
     </entry>

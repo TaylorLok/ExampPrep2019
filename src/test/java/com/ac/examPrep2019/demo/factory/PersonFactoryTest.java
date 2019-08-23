@@ -26,7 +26,7 @@ public class PersonFactoryTest
     public void getPerson()
     {
         assertEquals(person.getName(),"Taylor","Taylor");
-        assertEquals(person.getSurName(),"lokombe","Taylor");// this one will fail because check the @ before its been already customized anf i put "taylor" instead of "lokombe"
+        assertEquals(person.getSurName(),"Lokombe","Lokombe");// this one will fail because check the @ before its been already customized anf i put "taylor" instead of "lokombe"
         assertEquals(person.getId(),"214291324","214291324");// please run the entire of this class from "public class PersonFactoryTest" it will tell you what fails
 
     }
