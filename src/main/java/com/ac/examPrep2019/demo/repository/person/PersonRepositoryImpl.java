@@ -10,7 +10,7 @@ public class PersonRepositoryImpl implements PersonRepository
 
     private Map<String,Person> personMap; //creating your collection
 
-    private PersonRepositoryImpl()
+    public PersonRepositoryImpl()
     {
         this.personMap = new HashMap<>();
     }//passing your collection
