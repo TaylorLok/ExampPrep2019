@@ -70,23 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonServiceImplTest.delete">
-    <configuration name="PersonRepositoryImplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ExamPrep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ac.examPrep2019.demo.repository.person.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ac.examPrep2019.demo.repository.person" />
-      <option name="MAIN_CLASS_NAME" value="com.ac.examPrep2019.demo.repository.person.PersonRepositoryImplTest" />
-      <option name="METHOD_NAME" value="update" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PersonServiceImplTest.getAll">
     <configuration name="PersonServiceImplTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExamPrep" />
       <extension name="coverage">
@@ -114,6 +98,22 @@
       <option name="PACKAGE_NAME" value="com.ac.examPrep2019.demo.service.person" />
       <option name="MAIN_CLASS_NAME" value="com.ac.examPrep2019.demo.service.person.PersonServiceImplTest" />
       <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonServiceImplTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ExamPrep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ac.examPrep2019.demo.service.person.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ac.examPrep2019.demo.service.person" />
+      <option name="MAIN_CLASS_NAME" value="com.ac.examPrep2019.demo.service.person.PersonServiceImplTest" />
+      <option name="METHOD_NAME" value="getAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonServiceImplTest.getAll" />
         <item itemvalue="JUnit.PersonServiceImplTest.delete" />
         <item itemvalue="JUnit.PersonServiceImplTest.update" />
         <item itemvalue="JUnit.PersonServiceImplTest.read" />
         <item itemvalue="JUnit.PersonServiceImplTest.create" />
-        <item itemvalue="JUnit.PersonRepositoryImplTest.update" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +173,7 @@
       <updated>1566588779230</updated>
       <workItem from="1566588805501" duration="22227000" />
       <workItem from="1566743811758" duration="2011000" />
-      <workItem from="1566749072185" duration="5253000" />
+      <workItem from="1566749072185" duration="5515000" />
     </task>
     <servers />
   </component>

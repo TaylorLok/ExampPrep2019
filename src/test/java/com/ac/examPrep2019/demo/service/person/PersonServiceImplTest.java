@@ -21,7 +21,9 @@ public class PersonServiceImplTest
     }
 
     @Test
-    public void getAll() {
+    public void getAll()
+    {
+        System.out.println(person.toString());
     }
 
     @Test
