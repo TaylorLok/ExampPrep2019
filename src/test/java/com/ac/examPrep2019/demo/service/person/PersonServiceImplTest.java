@@ -20,10 +20,6 @@ public class PersonServiceImplTest
         person = PersonFactory.getPerson("Taylor","Lokombe","214291324");
     }
 
-    @After
-    public void tearDown() throws Exception {
-    }
-
     @Test
     public void getAll() {
     }
@@ -31,20 +27,33 @@ public class PersonServiceImplTest
     @Test
     public void create()
     {
-       // PersonServiceImpl.getService().create(Person("Taylor","Lokombe","222"));
-        service.create(person);
+        PersonServiceImpl.getService().create(person);
+        System.out.println(person);
+
     }
 
     @Test
-    public void read() {
+    public void read()
+    {
+        PersonServiceImpl.getService().read(person.getName());
+        PersonServiceImpl.getService().read(person.getSurName());
+        PersonServiceImpl.getService().read(person.getId());
+        System.out.println(person);
     }
 
     @Test
-    public void update() {
+    public void update()
+    {
+        PersonServiceImpl.getService().update(person);
+        System.out.print(person.getName());
+        System.out.print(person.getSurName());
     }
 
     @Test
-    public void delete() {
+    public void delete()
+    {
+        PersonServiceImpl.getService().delete(person.getName());
+        System.out.print(person);
     }
 }
 

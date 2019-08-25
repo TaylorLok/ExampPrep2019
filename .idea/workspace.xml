@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46db5cb4-6e6c-41bb-bcbb-24327ce3ff05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/service/IService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/service/person/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/service/person/PersonServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Misc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/service/person/PersonServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/repository/person/PersonRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ac/examPrep2019/demo/repository/person/PersonRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/service/person/PersonServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ac/examPrep2019/demo/service/person/PersonServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ac/examPrep2019/demo/service/person/PersonServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ac/examPrep2019/demo/service/person/PersonServiceImplTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,39 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonServiceImplTest.create">
-    <configuration name="PersonRepositoryImplTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ExamPrep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ac.examPrep2019.demo.repository.person.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ac.examPrep2019.demo.repository.person" />
-      <option name="MAIN_CLASS_NAME" value="com.ac.examPrep2019.demo.repository.person.PersonRepositoryImplTest" />
-      <option name="METHOD_NAME" value="create" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonRepositoryImplTest.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ExamPrep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ac.examPrep2019.demo.repository.person.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ac.examPrep2019.demo.repository.person" />
-      <option name="MAIN_CLASS_NAME" value="com.ac.examPrep2019.demo.repository.person.PersonRepositoryImplTest" />
-      <option name="METHOD_NAME" value="read" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PersonServiceImplTest.delete">
     <configuration name="PersonRepositoryImplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExamPrep" />
       <extension name="coverage">
@@ -141,28 +103,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalaryRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonServiceImplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExamPrep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ac.examPrep2019.demo.repository.salary.*" />
+          <option name="PATTERN" value="com.ac.examPrep2019.demo.service.person.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ac.examPrep2019.demo.repository.salary" />
-      <option name="MAIN_CLASS_NAME" value="com.ac.examPrep2019.demo.repository.salary.SalaryRepositoryImplTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.ac.examPrep2019.demo.service.person" />
+      <option name="MAIN_CLASS_NAME" value="com.ac.examPrep2019.demo.service.person.PersonServiceImplTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonServiceImplTest.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ExamPrep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ac.examPrep2019.demo.service.person.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ac.examPrep2019.demo.service.person" />
+      <option name="MAIN_CLASS_NAME" value="com.ac.examPrep2019.demo.service.person.PersonServiceImplTest" />
+      <option name="METHOD_NAME" value="read" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonServiceImplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ExamPrep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ac.examPrep2019.demo.service.person.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ac.examPrep2019.demo.service.person" />
+      <option name="MAIN_CLASS_NAME" value="com.ac.examPrep2019.demo.service.person.PersonServiceImplTest" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonServiceImplTest.delete" />
+        <item itemvalue="JUnit.PersonServiceImplTest.update" />
+        <item itemvalue="JUnit.PersonServiceImplTest.read" />
         <item itemvalue="JUnit.PersonServiceImplTest.create" />
         <item itemvalue="JUnit.PersonRepositoryImplTest.update" />
-        <item itemvalue="JUnit.PersonRepositoryImplTest.read" />
-        <item itemvalue="JUnit.PersonRepositoryImplTest.create" />
-        <item itemvalue="JUnit.SalaryRepositoryImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,41 +173,9 @@
       <updated>1566588779230</updated>
       <workItem from="1566588805501" duration="22227000" />
       <workItem from="1566743811758" duration="2011000" />
-      <workItem from="1566749072185" duration="4146000" />
+      <workItem from="1566749072185" duration="5253000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="SalaryRepositoryImplTest_update - 2019.08.24 at 03h 03m 11s.xml">
-      <configuration name="SalaryRepositoryImplTest.update" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalaryRepositoryImplTest_delete - 2019.08.24 at 03h 07m 08s.xml">
-      <configuration name="SalaryRepositoryImplTest.delete" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalaryRepositoryImplTest_delete - 2019.08.24 at 03h 09m 19s.xml">
-      <configuration name="SalaryRepositoryImplTest.delete" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalaryRepositoryImplTest - 2019.08.24 at 03h 11m 19s.xml">
-      <configuration name="SalaryRepositoryImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonRepositoryImplTest_create - 2019.08.24 at 03h 18m 47s.xml">
-      <configuration name="PersonRepositoryImplTest.create" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonRepositoryImplTest_read - 2019.08.24 at 03h 24m 43s.xml">
-      <configuration name="PersonRepositoryImplTest.read" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonRepositoryImplTest_read - 2019.08.24 at 03h 25m 42s.xml">
-      <configuration name="PersonRepositoryImplTest.read" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonRepositoryImplTest_read - 2019.08.24 at 03h 25m 58s.xml">
-      <configuration name="PersonRepositoryImplTest.read" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonRepositoryImplTest_read - 2019.08.24 at 03h 26m 16s.xml">
-      <configuration name="PersonRepositoryImplTest.read" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonRepositoryImplTest_update - 2019.08.24 at 03h 29m 54s.xml">
-      <configuration name="PersonRepositoryImplTest.update" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
